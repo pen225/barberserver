@@ -30,6 +30,8 @@ app.get('/', (req, res) =>{
     res.render('acceuil');
 });
 
-app.listen(PORT, () =>{
-    console.log(`Ecoutez sur le port ${PORT}`);
-})
+// app.listen(PORT, () =>{
+//     console.log(`Ecoutez sur le port ${PORT}`);
+// })
+
+app.listen(process.env.PORT || 5000)
