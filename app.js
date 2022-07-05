@@ -27,8 +27,8 @@ app.get('/services', (req, res) =>{
 });
 
 app.get('/', (req, res) =>{
-    // res.render('acceuil')
-    res.send("Bienvenue");
+    res.render('acceuil');
+    // res.send("Bienvenue");
 });
 
 // app.listen(PORT, () =>{
